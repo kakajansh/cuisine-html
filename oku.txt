@@ -1,0 +1,31 @@
+README
+======
+
+index.html
+-----------
+
+Sadece sitemin yuklu oldugu https://github.com/sayawan/cuisine-html sayfasina yonlendiriyor.
+Kaynak kodu https://github.com/sayawan/cuisine-html
+
+DIV
+---
+
+Sitenin DIV lerle yapilmish hali. 
+[http://semantic-ui.com/] Grid, Menu, Lable, Button gibiler icin
+[http://blurjs.com/] Blur lu yan panel CSS3 ile de yapilabilirdi, ancak CSS3 sinirli tarayici desteklemesinden dolayi
+[http://supersimpleslider.com/] Isiminden oldugu gibi, cok basit bir slideshow eklentisi.
+
+TABLE
+-----
+
+Sitenin TABLE lerle yapilmish hali. 
+
+[http://www.tablesgenerator.com/html_tables] Tablo tasarlama-da kurtarici
+
+
+PROGRAMLAR
+----------
+Olmazsa olmazlar
+
+[http://www.sublimetext.com/3]
+[https://www.mozilla.org/en-US/firefox/developer/]
