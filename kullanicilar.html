@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta ayar -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site genel özellikler -->
+    <title>Anasayfa | Cuisine</title>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/sss.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/blur.js"></script>
+    <script src="js/sss.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        .test {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="ui page no-pad grid">
+
+    <!-- SIDEBAR -->
+    <div class="computer only four wide column blur" style="margin-left:28px;">
+      <div class="ui cu-sidebar no-radius attached full-height segment" style="background-color: #e6e6e6;">
+        <img src="images/logo.png" alt="" width="100%">
+
+        <br><br><br>
+
+        <div class="ui two fluid buttons">
+          <a href="index.html" class="ui icon button"><i class="ui home huge icon"></i>   <hr> Anasayfa</a>
+          <a href="sepetim.html" class="ui icon button"><i class="ui shop huge icon"></i> <hr> Sepetim</a>
+        </div>
+
+        <br>
+
+        <div class="ui secondary vertical fluid menu">
+          <div class="header item">Tarifler:</div>
+          <a href="yemekler.html" class="active item">
+            <div class="ui teal label">52</div> Ana yemekler
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">21</div> Hamur işi
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">47</div> Çorbalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">40</div> Pastalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">16</div> Diyet yemek
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">32</div> Salata
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">9</div> Konserve
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">22</div> Kahvaltılık
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">26</div> İçecekler
+          </a>
+          <div class="ui dropdown item">
+            <i class="dropdown icon"></i>
+            Diger
+            <div class="menu">
+              <a href="yemekler.html" class="item"><div class="ui label">8</div> Kurabiye</a>
+              <a href="yemekler.html" class="item"><div class="ui label">6</div> Sebzeli yemek</a>
+              <a href="yemekler.html" class="item"><div class="ui label">14</div> Yoresel yemekler</a>
+            </div>
+          </div>
+          <!-- <hr> -->
+          <div class="ui divider"></div>
+          <a href="kullanicilar.html" class="item">
+            <div class="ui teal label">981</div> Kullanicilar
+          </a>
+          <a href="etkinlik.html" class="item">
+            <div class="ui mini red label">yeni</div> Etkinlik
+          </a>
+        </div>
+
+        <div class="ui bottom attached alt label">
+          <a href="index.html">Ana sayfa</a> &sdot; 
+          <a href="">Hakkımızda</a> &sdot;
+          <a href="iletisim.html">Iletişim</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN PANEL -->
+    <div class="twelve wide computer sixteen wide tablet bilgisayar column" id="context">
+      <div class="ui no-radius segment">
+
+        <h3 class="ui left floated header">Sitemiz Administratörleri</h3>
+        <h3 class="right floated ui label">3 üye</h3>
+
+        <div class="ui divider"></div>
+
+        <div class="ui three doubling cards">
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/ade.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Admin abla</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/elliot.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Admin abi</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/steve.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Steve abi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+
+        <h3 class="ui left floated header">En aktiv kullanıcılar</h3>
+        <h3 class="right floated ui label">ilk 5</h3>
+
+        <div class="ui divider"></div>
+
+        <div class="ui five doubling cards">
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/christian.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Elliot Fu</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/daniel.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Helen Troy</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/elliot.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Jenny Hess</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/helen.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Elliot Fu</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/jenny.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Helen Troy</a>
+            </div>
+          </div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+
+        <h3 class="ui left floated header">Yeni yüzler</h3>
+        <h3 class="right floated ui label">son 5</h3>
+
+        <div class="ui divider"></div>
+
+        <div class="ui five doubling cards">
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/joe.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Elliot Fu</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/justen.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Helen Troy</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/laura.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Elliot Fu</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/matt.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Helen Troy</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/avatar/nan.jpg">
+            </div>
+            <div class="content">
+              <a href="etkinlik.html" class="header">Jenny Hess</a>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="ui horizontal header divider">
+          <i class="bar chart icon"></i>
+          Sitemizin istatistigi
+        </h4>
+
+        <div class="ui four column grid">
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="value">
+                550+
+              </div>
+              <div class="label">
+                Yemek tarifleri
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="text value">
+                Günlük binlerce
+              </div>
+              <div class="label">
+                ziyaretçilerimiz
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="value">
+                <i class="trophy icon"></i>
+              </div>
+              <div class="label">
+                En iyilerden biri 
+              </div>
+            </div> 
+          </div>
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="value">
+                <img src="images/avatar/zoe.jpg">
+                981
+              </div>
+              <div class="label">
+                Kayıtlı üyemiz
+              </div>
+            </div>
+          </div>
+        </div>
+
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,168 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../images/pt6.gif');
+    /*background: linear-gradient(270deg, #40c5a3, #d6cb50);
+    background-size: 400% 400%;
+    -webkit-animation: ArkaFon 30s ease infinite;
+    -moz-animation: ArkaFon 30s ease infinite;
+    -o-animation: ArkaFon 30s ease infinite;
+    animation: ArkaFon 30s ease infinite;*/
+}
+ 
+/** GRADIENT ARKA FON css3 **/
+/**  **/
+/*@-webkit-keyframes ArkaFon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ArkaFon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes ArkaFon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ArkaFon {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+} 
+*/
+
+.no-radius {
+    border-radius: 0px !important;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+
+.full-height {
+    /*height: 100vh !important;*/
+}
+
+
+.cu-sidebar img {
+    margin-top: 100px;
+}
+
+.cu-sidebar .ui.menu {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.alt {
+    text-align: center;
+}
+
+.alt a:hover {
+    color: #00C4BC;
+}
+
+.ui.test.ad:after {
+    content: 'Reklam alani';
+}
+
+.bilgi {
+    margin-top: 0px !important;
+    padding: 40px !important;
+}
+
+.ortala {
+    text-align: center !important;
+}
+
+#etkinlik-st {
+    background-color: #e6e6e6;
+}
+
+#etkinlik {
+    padding-left: 20px;
+}
+
+
+/** Mobil versiyon uyumlulugu **/
+
+@media only screen and (max-width: 767px) {
+  .ui.page.grid {
+    width: auto;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .ui.page.grid {
+        width: auto;
+        margin-left: 0em;
+        margin-right: 0em;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .bilgisayar {
+        margin-left: -28px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 23%;
+    padding-right: 23%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.stackable.cards {
+    display: block !important;
+  }
+
+  .ui.stackable.cards .card:first-child {
+    margin-top: 0em !important;
+  }
+
+  .ui.stackable.cards > .card {
+    display: block !important;
+    height: auto !important;
+    margin: 1em 1em;
+    padding: 0 !important;
+    width: -webkit-calc( 100%  -  2em ) !important;
+    width: calc( 100%  -  2em ) !important;
+  }
+}
+
+/** ozellestirme **/

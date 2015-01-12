@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta ayar -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site genel özellikler -->
+    <title>Anasayfa | Cuisine</title>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/sss.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/blur.js"></script>
+    <script src="js/sss.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        .test {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="ui page no-pad grid">
+
+    <!-- SIDEBAR -->
+    <div class="computer only four wide column blur" style="margin-left:28px;">
+      <div class="ui cu-sidebar no-radius attached full-height segment" style="background-color: #e6e6e6;">
+        <img src="images/logo.png" alt="" width="100%">
+
+        <br><br><br>
+
+        <div class="ui two fluid buttons">
+          <a href="index.html" class="ui icon button"><i class="ui home huge icon"></i>   <hr> Anasayfa</a>
+          <a href="sepetim.html" class="ui icon button"><i class="ui shop huge icon"></i> <hr> Sepetim</a>
+        </div>
+
+        <br>
+
+        <div class="ui secondary vertical fluid menu">
+          <div class="header item">Tarifler:</div>
+          <a href="yemekler.html" class="active item">
+            <div class="ui teal label">52</div> Ana yemekler
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">21</div> Hamur işi
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">47</div> Çorbalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">40</div> Pastalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">16</div> Diyet yemek
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">32</div> Salata
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">9</div> Konserve
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">22</div> Kahvaltılık
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">26</div> İçecekler
+          </a>
+          <div class="ui dropdown item">
+            <i class="dropdown icon"></i>
+            Diger
+            <div class="menu">
+              <a href="yemekler.html" class="item"><div class="ui label">8</div> Kurabiye</a>
+              <a href="yemekler.html" class="item"><div class="ui label">6</div> Sebzeli yemek</a>
+              <a href="yemekler.html" class="item"><div class="ui label">14</div> Yoresel yemekler</a>
+            </div>
+          </div>
+          <!-- <hr> -->
+          <div class="ui divider"></div>
+          <a href="kullanicilar.html" class="item">
+            <div class="ui teal label">981</div> Kullanicilar
+          </a>
+          <a href="etkinlik.html" class="item">
+            <div class="ui mini red label">yeni</div> Etkinlik
+          </a>
+        </div>
+
+        <div class="ui bottom attached alt label">
+          <a href="index.html">Ana sayfa</a> &sdot; 
+          <a href="">Hakkımızda</a> &sdot;
+          <a href="iletisim.html">Iletişim</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN PANEL -->
+    <div class="twelve wide computer sixteen wide tablet bilgisayar column" id="context">
+      <div class="ui no-radius segment">
+      
+        <div class="ui sticky">
+          <div class="ui borderless menu">
+            <div class="item">
+              <div class="ui transparent left icon massive input">
+                <input placeholder="Arama..." type="text">
+                <i class="search icon"></i>
+              </div>
+            </div>
+            <div class="right menu">
+              <div class="ui item" style="padding-top: 2px; padding-bottom: 2px;">
+              </div>
+              <div class="ui floating labeled dropdown item">
+                <span class="text">
+                  <img class="ui mini avatar image" src="images/avatar/steve.jpg">
+                  Steve Jobs
+                </span>
+                <div class="menu">
+                  <a href="etkinlik.html" class="item">
+                    <i class="ui user icon"></i>
+                    Profilim
+                  </a>
+                  <div class="item">
+                    <i class="ui settings icon"></i>
+                    Ayarlar
+                  </div>
+                  <div class="ui divider"></div>
+                  <div class="item">
+                    <i class="ui log out icon"></i>
+                    Cikis yap
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        
+        <div class="slider">
+          <img src="images/slider/1.jpg" alt="" width="100%">
+          <img src="images/slider/2.jpg" alt="" width="100%">
+          <img src="images/slider/3.jpg" alt="" width="100%">
+          <img src="images/slider/4.jpg" alt="" width="100%">
+        </div>
+
+        <h4 class="ui horizontal header divider">
+          <i class="bar chart icon"></i>
+          Sitemizin istatistigi
+        </h4>
+
+        <div class="ui four column grid">
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="value">
+                550+
+              </div>
+              <div class="label">
+                Yemek tarifleri
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="text value">
+                Günlük binlerce
+              </div>
+              <div class="label">
+                ziyaretçilerimiz
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="value">
+                <i class="trophy icon"></i>
+              </div>
+              <div class="label">
+                En iyilerden biri 
+              </div>
+            </div> 
+          </div>
+          <div class="column">
+            <div class="ui red statistic">
+              <div class="value">
+                <img src="images/avatar/steve.jpg">
+                981
+              </div>
+              <div class="label">
+                Kayıtlı üyemiz
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="ui horizontal header divider">
+          <i class="bar chart icon"></i>
+          Kategoriler
+        </h4>
+
+        <div class="ui four doubling special cards">
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/5.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/1.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/2.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/3.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/4.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/10.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/6.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/7.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/8.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/9.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/3.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemekler.html" class="ui inverted button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/icons/5.png">
+            </div>
+            <div class="content">
+              <a href="yemekler.html" class="header">Ana yemekler</a>
+              <div class="meta">
+                <span class="date">52 tarif</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui centered banner test ad"></div>
+
+      </div>
+    </div>
+
+  </div>
+</body>

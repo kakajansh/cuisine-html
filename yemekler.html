@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta ayar -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site genel özellikler -->
+    <title>Anasayfa | Cuisine</title>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/sss.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/blur.js"></script>
+    <script src="js/sss.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        .test {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="ui page no-pad grid">
+
+    <!-- SIDEBAR -->
+    <div class="computer only four wide column blur" style="margin-left:28px;">
+      <div class="ui cu-sidebar no-radius attached full-height segment" style="background-color: #e6e6e6;">
+        <img src="images/logo.png" alt="" width="100%">
+
+        <br><br><br>
+
+        <div class="ui two fluid buttons">
+          <a href="index.html" class="ui icon button"><i class="ui home huge icon"></i>   <hr> Anasayfa</a>
+          <a href="sepetim.html" class="ui icon button"><i class="ui shop huge icon"></i> <hr> Sepetim</a>
+        </div>
+
+        <br>
+
+        <div class="ui secondary vertical fluid menu">
+          <div class="header item">Tarifler:</div>
+          <a href="yemekler.html" class="active item">
+            <div class="ui teal label">52</div> Ana yemekler
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">21</div> Hamur işi
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">47</div> Çorbalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">40</div> Pastalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">16</div> Diyet yemek
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">32</div> Salata
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">9</div> Konserve
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">22</div> Kahvaltılık
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">26</div> İçecekler
+          </a>
+          <div class="ui dropdown item">
+            <i class="dropdown icon"></i>
+            Diger
+            <div class="menu">
+              <a href="yemekler.html" class="item"><div class="ui label">8</div> Kurabiye</a>
+              <a href="yemekler.html" class="item"><div class="ui label">6</div> Sebzeli yemek</a>
+              <a href="yemekler.html" class="item"><div class="ui label">14</div> Yoresel yemekler</a>
+            </div>
+          </div>
+          <!-- <hr> -->
+          <div class="ui divider"></div>
+          <a href="kullanicilar.html" class="item">
+            <div class="ui teal label">981</div> Kullanicilar
+          </a>
+          <a href="etkinlik.html" class="item">
+            <div class="ui mini red label">yeni</div> Etkinlik
+          </a>
+        </div>
+
+        <div class="ui bottom attached alt label">
+          <a href="index.html">Ana sayfa</a> &sdot; 
+          <a href="">Hakkımızda</a> &sdot;
+          <a href="iletisim.html">Iletişim</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN PANEL -->
+    <div class="twelve wide computer sixteen wide tablet bilgisayar column" id="context">
+      <div class="ui no-radius segment">
+
+        <div class="ui red segment">
+          <h3 class="ui left floated header">
+            Ana Yemekler
+          </h3>
+          <h3 class="ui right floated header">
+            <div class="ui red label">52 tarif</div>
+          </h3>
+        </div>
+
+        <div class="ui three doubling special cards">
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/1.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="2"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/2.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/3.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="5"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/4.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/5.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/6.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/7.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/8.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/9.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/10.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/11.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="dimmable image">
+              <div class="ui inverted dimmer">
+                <div class="content">
+                  <div class="center">
+                    <a href="yemek.html" class="ui primary button">Goster</a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/food/12.jpg">
+            </div>
+            <div class="content">
+            <a href="yemek.html" class="header">Turkmen yemegi</a>
+            </div>
+            <div class="extra">
+              Rating:
+              <div class="ui star rating" data-rating="4"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui centered banner test ad"></div>
+
+        <div class="ui borderless pagination fluid menu">
+          <a class="item">
+            <i class="left arrow icon"></i> Önceki
+          </a>
+          <a class="item">1</a>
+          <a class="item">2</a>
+          <a class="item">3</a>
+          <a class="item">4</a>
+          <a class="item">5</a>
+          <a class="item">6</a>
+          <a class="right item">
+            Sonraki <i class="icon right arrow"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>

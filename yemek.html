@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta ayar -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site genel özellikler -->
+    <title>Anasayfa | Cuisine</title>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/sss.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/blur.js"></script>
+    <script src="js/sss.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        .test {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="ui page no-pad grid">
+
+    <!-- SIDEBAR -->
+    <div class="computer only four wide column blur" style="margin-left:28px;">
+      <div class="ui cu-sidebar no-radius attached full-height segment" style="background-color: #e6e6e6;">
+        <img src="images/logo.png" alt="" width="100%">
+
+        <br><br><br>
+
+        <div class="ui two fluid buttons">
+          <a href="index.html" class="ui icon button"><i class="ui home huge icon"></i>   <hr> Anasayfa</a>
+          <a href="sepetim.html" class="ui icon button"><i class="ui shop huge icon"></i> <hr> Sepetim</a>
+        </div>
+
+        <br>
+
+        <div class="ui secondary vertical fluid menu">
+          <div class="header item">Tarifler:</div>
+          <a href="yemekler.html" class="active item">
+            <div class="ui teal label">52</div> Ana yemekler
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">21</div> Hamur işi
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">47</div> Çorbalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">40</div> Pastalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">16</div> Diyet yemek
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">32</div> Salata
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">9</div> Konserve
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">22</div> Kahvaltılık
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">26</div> İçecekler
+          </a>
+          <div class="ui dropdown item">
+            <i class="dropdown icon"></i>
+            Diger
+            <div class="menu">
+              <a href="yemekler.html" class="item"><div class="ui label">8</div> Kurabiye</a>
+              <a href="yemekler.html" class="item"><div class="ui label">6</div> Sebzeli yemek</a>
+              <a href="yemekler.html" class="item"><div class="ui label">14</div> Yoresel yemekler</a>
+            </div>
+          </div>
+          <!-- <hr> -->
+          <div class="ui divider"></div>
+          <a href="kullanicilar.html" class="item">
+            <div class="ui teal label">981</div> Kullanicilar
+          </a>
+          <a href="etkinlik.html" class="item">
+            <div class="ui mini red label">yeni</div> Etkinlik
+          </a>
+        </div>
+
+        <div class="ui bottom attached alt label">
+          <a href="index.html">Ana sayfa</a> &sdot; 
+          <a href="">Hakkımızda</a> &sdot;
+          <a href="iletisim.html">Iletişim</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN PANEL -->
+    <div class="twelve wide computer sixteen wide tablet bilgisayar column" id="context">
+      <div class="ui no-radius segment">
+
+        <div class="ui hidden divider"></div>
+        <!-- <div class="ui secondary segment" style="padding:5px"> -->
+          <h2 class="ui red left floated header">
+            Turkmen yemegi
+          </h2>
+          <div class="ui right floated header">
+            <div class="ui small red button"><i class="bookmark icon"></i> Not al</div>
+          </div>
+        <!-- </div> -->
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+
+        <div class="ui three steps">
+          <div class="step">
+            <i class="search icon"></i>
+            <div class="content">
+              <div class="title">Arama yapın</div>
+            </div>
+          </div>
+          <div class="active step">
+            <i class="food icon"></i>
+            <div class="content">
+              <div class="title">Tarif seçin</div>
+            </div>
+          </div>
+          <div class="disabled step">
+            <i class="shop icon"></i>
+            <div class="content">
+              <div class="title">Alışveriş zamanı</div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <img src="images/food/11.jpg" alt="" width="100%">
+
+        <br><br>
+        <div class="ui mini images">
+          <div class="ui mini negative button">
+            <i class="icon like"></i>
+            Begen
+          </div>
+          <img class="ui image" src="images/avatar/steve.jpg">
+          <img class="ui image" src="images/avatar/ade.jpg">
+          <img class="ui image" src="images/avatar/chris.jpg">
+          <img class="ui image" src="images/avatar/christian.jpg">
+          <img class="ui image" src="images/avatar/daniel.jpg">
+          <img class="ui image" src="images/avatar/elliot.jpg">
+          <img class="ui image" src="images/avatar/laura.jpg">
+          <img class="ui image" src="images/avatar/matt.jpg">
+        </div>
+
+        <h2>Malzemeler</h2>
+
+        <div class="ui divided list">
+          <div class="item">
+            <div class="right floated compact ui teal button">Sepetime ekle</div>
+            <img class="ui avatar image" src="images/malzeme/1.jpg">
+            <div class="content">
+              <div class="header">Domates</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated compact ui teal button">Sepetime ekle</div>
+            <img class="ui avatar image" src="images/malzeme/2.jpg">
+            <div class="content">
+              <div class="header">Marul</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated compact ui teal button">Sepetime ekle</div>
+            <img class="ui avatar image" src="images/malzeme/3.jpg">
+            <div class="content">
+              <div class="header">Salatalik</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated compact ui teal button">Sepetime ekle</div>
+            <img class="ui avatar image" src="images/malzeme/4.jpg">
+            <div class="content">
+              <div class="header">Maydanoz</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated compact ui teal button">Sepetime ekle</div>
+            <img class="ui avatar image" src="images/malzeme/1.jpg">
+            <div class="content">
+              <div class="header">Bulgur</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="right floated compact ui teal button">Sepetime ekle</div>
+            <img class="ui avatar image" src="images/malzeme/2.jpg">
+            <div class="content">
+              <div class="header">Sivi yag</div>
+            </div>
+          </div>
+        </div>
+
+        <h2>Hazirlanisi</h2>
+
+        <div class="ui two column divided grid">
+          <div class="column">
+            <p>Büyük dikdörtgen milföy hamurunu tezgaha serelim.</p>
+
+            <p>Üzerine yumuşamış tereyağının yarısını küçük parçalara ayırıp sürelim.</p>
+
+            <p>Bir kaba sütü, toz şekeri ve kuru üzümü koyup karıştıralım.</p>
+
+            <p>Milföyün üzerine kuru üzümlü karışımdan bir miktar gezdirerek dökelim.</p>
+
+            <p>Sonra üzerine diğer milföyü kapatalım ve üzerine kuru üzümlü karışımdan gezdirerek dökelim.</p>
+
+            <p>Daha sonra rulo şeklinde saralım ve 2 parmak genişliğinde keselim.</p>
+
+            <p>Kestiğimiz parçalara hafifçe bastıralım ve yağlı kağıt serili tepsiye dizelim.</p>
+
+            <p>Fırını 250° de ısıtıp, sonra 200° ye alalım.</p>
+          </div>
+          <div class="column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequatur saepe ea deserunt. Ut amet laboriosam, perferendis, aspernatur facilis libero fugiat iusto quas ratione labore impedit quidem tempora nesciunt molestiae quia corrupti. Minus, nulla, quos? Doloribus necessitatibus aspernatur praesentium tenetur aut non perspiciatis neque voluptatum explicabo ducimus eum quam, quidem, assumenda repudiandae, </p> <p>laboriosam minima deleniti dolorem. Ab sint praesentium vitae magni voluptatem fuga omnis expedita beatae quasi eaque autem, porro, iste ullam perspiciatis laboriosam officiis! Iure, odit, iste? Sunt, enim tempora culpa debitis impedit ipsa aspernatur, </p> <p>asperiores distinctio eligendi minus delectus veniam totam maxime eos voluptate voluptatem velit omnis beatae ratione. Odio accusamus, labore ea magnam, ut cumque sint, non molestiae similique natus aperiam temporibus quo! Quibusdam temporibus, nobis esse.</p>
+          </div>
+        </div>
+
+
+        <div class="ui hidden divider"></div>
+
+        <div class="ui threaded comments">
+          <h2 class="ui dividing header">Kullanici yorumlari</h2>
+          <div class="comment">
+            <a class="avatar">
+              <img src="images/avatar/matt.jpg">
+            </a>
+            <div class="content">
+              <a class="author">Matt</a>
+              <div class="metadata">
+                <span class="date">Bugun 5:42PM</span>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor.
+              </div>
+              <div class="actions">
+                <a class="reply">Yanitla</a>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <a class="avatar">
+              <img src="images/avatar/elliot.jpg">
+            </a>
+            <div class="content">
+              <a class="author">Elliot Fu</a>
+              <div class="metadata">
+                <span class="date">Dun 12:30AM</span>
+              </div>
+              <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, iusto.</p>
+              </div>
+              <div class="actions">
+                <a class="reply">Yanitla</a>
+              </div>
+            </div>
+            <div class="comments">
+              <div class="comment">
+                <a class="avatar">
+                  <img src="images/avatar/jenny.jpg">
+                </a>
+                <div class="content">
+                  <a class="author">Jenny Hess</a>
+                  <div class="metadata">
+                    <span class="date">Simdi</span>
+                  </div>
+                  <div class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </div>
+                  <div class="actions">
+                    <a class="reply">Yanitla</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <a class="avatar">
+              <img src="images/avatar/joe.jpg">
+            </a>
+            <div class="content">
+              <a class="author">Joe Henderson</a>
+              <div class="metadata">
+                <span class="date">5 gun once</span>
+              </div>
+              <div class="text">
+                Lorem ipsum dolor sit amet, consectetur.
+              </div>
+              <div class="actions">
+                <a class="reply">Yanitla</a>
+              </div>
+            </div>
+          </div>
+          <form class="ui reply form">
+            <div class="field">
+              <textarea></textarea>
+            </div>
+            <div class="ui blue labeled submit icon button">
+              <i class="icon edit"></i> Yorum ekle
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>

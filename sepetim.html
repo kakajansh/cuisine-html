@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta ayar -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site genel özellikler -->
+    <title>Anasayfa | Cuisine</title>
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/sss.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/blur.js"></script>
+    <script src="js/sss.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        .test {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="ui page no-pad grid">
+
+    <!-- SIDEBAR -->
+    <div class="computer only four wide column blur" style="margin-left:28px;">
+      <div class="ui cu-sidebar no-radius attached full-height segment" style="background-color: #e6e6e6;">
+        <img src="images/logo.png" alt="" width="100%">
+
+        <br><br><br>
+
+        <div class="ui two fluid buttons">
+          <a href="index.html" class="ui icon button"><i class="ui home huge icon"></i>   <hr> Anasayfa</a>
+          <a href="sepetim.html" class="ui icon button"><i class="ui shop huge icon"></i> <hr> Sepetim</a>
+        </div>
+
+        <br>
+
+        <div class="ui secondary vertical fluid menu">
+          <div class="header item">Tarifler:</div>
+          <a href="yemekler.html" class="active item">
+            <div class="ui teal label">52</div> Ana yemekler
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">21</div> Hamur işi
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">47</div> Çorbalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">40</div> Pastalar
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">16</div> Diyet yemek
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">32</div> Salata
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">9</div> Konserve
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">22</div> Kahvaltılık
+          </a>
+          <a href="yemekler.html" class="item">
+            <div class="ui label">26</div> İçecekler
+          </a>
+          <div class="ui dropdown item">
+            <i class="dropdown icon"></i>
+            Diger
+            <div class="menu">
+              <a href="yemekler.html" class="item"><div class="ui label">8</div> Kurabiye</a>
+              <a href="yemekler.html" class="item"><div class="ui label">6</div> Sebzeli yemek</a>
+              <a href="yemekler.html" class="item"><div class="ui label">14</div> Yoresel yemekler</a>
+            </div>
+          </div>
+          <!-- <hr> -->
+          <div class="ui divider"></div>
+          <a href="kullanicilar.html" class="item">
+            <div class="ui teal label">981</div> Kullanicilar
+          </a>
+          <a href="etkinlik.html" class="item">
+            <div class="ui mini red label">yeni</div> Etkinlik
+          </a>
+        </div>
+
+        <div class="ui bottom attached alt label">
+          <a href="index.html">Ana sayfa</a> &sdot; 
+          <a href="">Hakkımızda</a> &sdot;
+          <a href="iletisim.html">Iletişim</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN PANEL -->
+    <div class="twelve wide computer sixteen wide tablet bilgisayar column" id="context">
+      <div class="ui no-radius segment">
+
+        <div class="ui three steps">
+          <div class="step">
+            <i class="search icon"></i>
+            <div class="content">
+              <div class="title">Arama yapın</div>
+            </div>
+          </div>
+          <div class="step">
+            <i class="food icon"></i>
+            <div class="content">
+              <div class="title">Tarif seçin</div>
+            </div>
+          </div>
+          <div class="active step">
+            <i class="shop icon"></i>
+            <div class="content">
+              <div class="title">Alışveriş zamanı</div>
+            </div>
+          </div>
+        </div>
+
+        <br><br><br>
+        <!-- <img src="images/shop/8.jpg" alt="" width="100%"> -->
+
+        <div class="ui two column grid">
+          <div class="column">
+            <img src="images/shop/5.jpg" alt="" width="100%">
+          </div>
+          <div class="column">
+            <div class="ui hidden divider"></div>
+            <div class="ui hidden divider"></div>
+            <div class="ui divided selection list">
+              <div class="item">
+                <div class="right floated tag ui label">$3</div>
+                <img class="ui avatar image" src="images/malzeme/1.jpg">
+                <div class="content">
+                  <div class="header">Domates <small>x 2 kg</small></div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated tag ui label">$12</div>
+                <img class="ui avatar image" src="images/malzeme/2.jpg">
+                <div class="content">
+                  <div class="header">Salatalik <small>x 2 kg</small></div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated tag ui label">$3</div>
+                <img class="ui avatar image" src="images/malzeme/3.jpg">
+                <div class="content">
+                  <div class="header">Bulgur</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated tag ui label">$12</div>
+                <img class="ui avatar image" src="images/malzeme/4.jpg">
+                <div class="content">
+                  <div class="header">Pomidore</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated tag ui label">$3</div>
+                <img class="ui avatar image" src="images/malzeme/2.jpg">
+                <div class="content">
+                  <div class="header">Malzeme</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated tag ui label">$12</div>
+                <img class="ui avatar image" src="images/malzeme/1.jpg">
+                <div class="content">
+                  <div class="header">Malzeme</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+        <div class="ui divider"></div>
+
+        <div class="ui statistic">
+          <div class="value">
+            <i class="shop icon"></i> 22
+          </div>
+          <div class="label">
+            Urun sectiniz
+          </div>
+        </div>
+
+        <div class="ui right floated statistic">
+          <div class="value">
+            <i class="dollar icon"></i> 35
+          </div>
+          <div class="label">
+            Toplam ucret
+          </div>
+        </div>
+
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui hidden divider"></div>
+        <div class="ui form">
+          <h4 class="ui block top attached header">Kullanicilarimiza bir soru
+          <div class="ui right floated mini teal button">Cevapla</div></h4>
+          <!-- <h4 class="right floated"><div class="ui button">sad</div></h4> -->
+          <div class="ui bottom attached secondary segment">
+            <div class="grouped fields">
+              <label for="alone">Sitenin icerigini yararli buldunuz mu?</label>
+              <div class="field">
+                <div class="ui radio checkbox checked">
+                  <input checked="" name="alone" type="radio">
+                  <label>Evet</label>
+                </div>
+              </div>
+              <div class="field">
+                <div class="ui radio checkbox">
+                  <input name="alone" type="radio">
+                  <label>Hayir</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="ui basic center aligned segment">
+          <img src="images/shop/4.jpg" alt="" width="50%" style="margin-bottom:-18px">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
